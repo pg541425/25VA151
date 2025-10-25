@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Experiment 4</title>
+  </head>
+  <body style="background-color: antiquewhite;">
+    <h1 style="text-align: center; color: brown;"><u>HOTEL ROOM BOOKING FORM</u></h1>
+    <form action="">
+      <fieldset>
+        <legend>Personal Details</legend>
+      <label for="fullName">Name</label><br>
+      <input type="text" placeholder="Enter your Name" required><br><br>
+      <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9+\-() ]{7,20}" placeholder="e.g. +91 988448XXX8" required><br><br>
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="3" cols="40" placeholder="Street, city, state, postal code"></textarea>
+    </form>
+</fieldset>
+<fieldset>
+        <legend>Booking Details</legend>
+
+        <label for="checkin">Check-in date:</label><br>
+        <input type="date" id="checkin" name="checkin" required><br><br>
+
+        <label for="checkout">Check-out date:</label><br>
+        <input type="date" id="checkout" name="checkout" required><br><br>
+
+        <label for="guests">Number of guests:</label><br>
+        <select id="guests" name="guests" required>
+          <option value="1">1</option>
+          <option value="2" selected>2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select><br><br>
+
+        <label for="roomType">Room type:</label><br>
+        <select id="roomType" name="roomType" required>
+          <option value="standard" selected>Standard</option>
+          <option value="deluxe">Deluxe</option>
+          <option value="suite">Suite</option>
+          <option value="family">Family</option>
+        </select><br><br>
+
+        <label for="bedType">Bed type:</label><br>
+        <select id="bedType" name="bedType" required>
+          <option value="single">Single</option>
+          <option value="double" selected>Double</option>
+          <option value="twin">Twin</option>
+          <option value="king">King</option>
+        </select><br><br>
+
+        <label for="requests">Special requests / Notes:</label><br>
+        <textarea id="requests" name="requests" rows="4" cols="50" placeholder="Any special requests, accessibility needs, or other notes"></textarea>
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Payment & Policies</legend>
+        <label for="payment">Payment method:</label><br>
+        <select id="payment" name="payment" required>
+          <option value="pay_later" selected>Pay at hotel</option>
+          <option value="card">Card on arrival</option>
+          <option value="online">Online payment</option>
+        </select><br><br>
+
+        <input type="checkbox" id="agree" name="agree" required>
+        <label for="agree">I accept the terms and conditions and the hotel's cancellation policy.</label><br>
+
+      </fieldset>
+
+      <br>
+
+      <button type="submit">Book Now</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
