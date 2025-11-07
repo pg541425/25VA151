@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Lecture 2</title>
+        <style>
+            div p{
+                background-color:dodgerblue;
+                color:rgb(238, 255, 0);
+            }
+            div +p{
+                background-color:#cf3333;
+            }
+            ul{
+               list-style:none;
+               display:flex;
+            }
+            ul li{
+                margin:10px;
+                border-right:3px solid #9d77c6;
+                padding-right:20px;
+            }
+            ul li:nth-child(5){
+                border-right:0px;
+            }
+            ul li::first letter{
+                font-size:25px; color:violet;
+            }
+            .text::after{
+                content:"Read More";
+                color:gray;
+                font-size:12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="text">
+            <h1>Hello Shivam</h1>
+            <p>This is just a normal human being and is living his life along with some goals, dreams in his mind which will come true one day.</p>
+        </div>
+        <p>and this is is just a normal para so it will be represented in the webpage.</p>
+        <!-- <ul>
+            <li>
+                <p>There are almost no humanity among the people in this generation specially the younger generations. according to the study of US they have the least humanity among younger kids.</p>
+            </li>
+        </ul> -->
+    <h2>Third Paragraph</h2>
+    <p>now this is the third para that our teacher is teaching us in class right now, these texts are not necessary to read.</p>
+    <ul>
+        <li>Red</li>
+        <li>Blue</li>
+        <li>Green</li>
+        <li>Black</li>
+        <li>Orange</li>
+    </ul>
+    </body>
+</html>

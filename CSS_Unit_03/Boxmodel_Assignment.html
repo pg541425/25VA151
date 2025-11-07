@@ -1,0 +1,48 @@
+<html>
+    <head>
+<title>
+            Boxmodel assignment
+        </title>
+        <style>
+            body {
+                margin:0;
+                padding:0;
+            }
+            html, *{
+                margin:0;
+                padding:0;
+                box-sizing:border-box;
+            }
+            #main{
+                width:880px;
+                height:200px;
+                background-color:#ffc0c0;
+                border:2px solid #000000;
+                margin:auto;
+                display:flex;
+            }
+            .box{
+                width:220px;
+                height:200px;
+                background-color:#2efc46;
+                border:#000000 10px solid;
+                margin-right:0;
+            }
+            .box:nth-child(4){
+                margin-right:0;
+            }
+            .box:nth-child(odd){
+                background-color:#444;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </body>
+</html>
