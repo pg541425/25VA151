@@ -1,0 +1,35 @@
+h1{
+    color:#451818;
+    font-family:'broadway';
+}
+body{
+    background-color:#fcc63f;
+    /* background-image:url('web.avif'); */
+    /* background-repeat:no-repeat; */
+    /* background-size:cover; */
+    background-position:top left;
+}
+#p2{
+    font-size:large;
+    font-family:'Times Roman';
+    font-weight:50;
+    font-style:bold;
+    color:#6c2525;
+    text-align:left;
+    display:inline;
+    /* text-decoration:underline; */
+    /* text-transform:capitalize; */
+    text-shadow:1px 0px 1px rgb(228, 245, 182);
+}
+#para{
+    display:inline;
+    color:rgb(223, 0, 48);
+}
+ul{
+    list-style:none;
+}
+ul li{
+    float:left; margin:80px;
+    font-size:large;
+    font-style:bold;
+}
