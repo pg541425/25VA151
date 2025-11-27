@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <title>
+            Layout 5
+        </title>
+        <style>
+            html, *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                font-family: 'Calibri';
+                text-align:center;
+                color: white;
+                line-height:95px;
+            }
+            #main{
+                width:900px;
+                height:auto;
+                background-color:rgb(209, 209, 209);
+                margin: 0 auto;
+                display:flex;
+                flex-direction: column;
+                gap:5px;
+            }
+            #Header{
+                background-color:#767676;
+                height:150px;
+                margin:2px;
+                line-height:75px;
+            }
+            #Footer{
+                background-color:#767676;
+                height:80px;
+                margin:2px;
+            }
+            #htop{
+                height:75px;
+                display:flex;
+                flex-direction:row;
+            }
+            #hlog{
+                height:75px;
+                width:300px;
+                background-color:#14a110;
+            }
+            #hban{
+                height:75px;
+                width: 600px;
+                background-color:#581b69;
+            }
+            #hbot{
+                height:75px;
+            }
+            #Body{
+                background-color:#c9c9c9;
+                height:390px;
+                display:flex;
+            }
+            #center{
+                height:390px;
+                line-height:125px;
+                width:300px;
+                background-color:#72f1a2;
+            }
+            #bleft{
+                height:390px;
+                width:300px;
+                background-color:#8ea839;
+            }
+            #bright{
+                height:390px;
+                width:300px;
+                background-color:#8ea839;
+            }
+            #ccb{
+                height:130px;
+                width:300px;
+                background-color:#302727;
+            }
+            #midc{
+                display:flex;
+            }
+            #clb{
+                height:130px;
+                width:150px;
+                background-color:#97adde;
+            }
+            #crb{
+                height:130px;
+                width:150px;
+                background-color:#91d8a4;
+            }
+            #modc{
+                height:130px;
+                width:300px;
+                background-color:#a04a1f;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <div id="Header">
+            <div id="htop">
+                <div id="hlog">Header Logo</div>
+                <div id="hban">Header Banner</div>
+            </div>
+            <div id="hbot">Header Bar</div>
+        </div>
+        <div id="Body">
+            <div id="bleft">Left Blocks</div>
+            <div id="center">
+                <div id="ccb">Center-Center Blocks</div>
+                <div id="midc">
+                    <div id="clb">Center-Left-Blocks</div>
+                    <div id="crb">Center-Right-Blocks</div>
+                </div>
+                <div id="modc">Module Contents</div>
+            </div>
+            <div id="bright">Right Blocks</div>
+        </div>
+        <div id="Footer">Footer Bar</div>
+        </div>
+    </body>
+</html>
